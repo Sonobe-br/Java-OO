@@ -1,7 +1,7 @@
 
 class Conta {
 
-    double saldo;
+    Private double saldo;
     int agencia;
     int numero;
     Cliente titular; // = new Cliente();
@@ -41,6 +41,12 @@ class Conta {
             retuurn false; 
 
         }
+
+    }
+
+    public double pegarSaldo() {
+        
+        return this.saldo;
 
     }
 
