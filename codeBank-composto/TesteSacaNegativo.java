@@ -11,7 +11,7 @@ public class TesteSacaNegativo {
 		
 		conta.sacar(200);
 		
-		System.out.println(conta.pegarSaldo());
+		System.out.println(conta.getSaldo());
 		
 		//Proibido:
 		//conta.saldo = conta.saldo - 200;
